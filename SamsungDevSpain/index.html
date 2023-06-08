@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head lang="es">
+    <meta charset="utf-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+   <div class="form">
+    <form method="POST" action="formulario.php">
+            <div id="title">
+                <h1>Formulario de registro</h1>
+            </div>
+            <div class="inputField">
+                <label for="name">Nombre<input id="name" name="name" type="text" required/></label>
+            </div>
+            <div class="inputField">
+                <label for="surname">Apellidos<input id="surname" name="surname" type="text" required/></label>
+            </div>
+            <div class="inputField">
+                <label for="email">Email<input id="email" name="email" type="email" required/></label>
+            </div>
+            <input type="submit" name="submit" value="Registrarse">
+
+        </form>
+   </div>
+</body>
+
+</html>
